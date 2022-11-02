@@ -4,7 +4,7 @@ janela.title("login")
 def click_button():
     login = ed1.get  ()
     senha = ed2.get()
-    if login == "dezinnike" and senha =="rodbeta":
+    if login == "login1" and senha =="senha1":
         lb3= Label(janela,text="bem vindo!")
         lb3.grid(row=4, column=1)
     else:
